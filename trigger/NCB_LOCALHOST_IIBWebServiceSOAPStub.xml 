@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trigger>
+    <UserStory>
+        <Name>NCB - LOCALHOST - IIBWebServiceSOAPStub</Name>
+        <Description>
+            As an insurance agent, I want to retrieve the claim details for a specific policy so that I can process the claim efficiently.
+        </Description>
+    </UserStory>
+    <AcceptanceCriteria>
+        <Criteria>
+            The SOAP client should be able to retrieve claim details for a specific policy by providing valid inputs.
+        </Criteria>
+        <Criteria>
+            The client should throw an exception if any of the inputs are missing or invalid.
+        </Criteria>
+        <Criteria>
+            The client should handle any errors returned by the external API and provide informative error messages to the user.
+        </Criteria>
+    </AcceptanceCriteria>
+    <DefinitionOfDone>
+        <Task>
+            The code for the SOAP client should be implemented and tested to ensure it retrieves claim details correctly for valid inputs.
+        </Task>
+        <Task>
+            The client should be tested with different combinations of input parameters to verify that it correctly handles different scenarios and edge cases.
+        </Task>
+        <Task>
+            The client should be properly documented, including usage instructions and any known limitations or issues.
+        </Task>
+        <Task>
+            The client should be integrated into the existing insurance processing system and deployed to production.
+        </Task>
+    </DefinitionOfDone>
+</Trigger>
