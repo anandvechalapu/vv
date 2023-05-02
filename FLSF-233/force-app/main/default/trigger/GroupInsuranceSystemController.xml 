@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserStory>
+    <Roles>
+        <Stakeholder>
+            <Responsibilities>
+                <LeadGeneration />
+                <ProposalGeneration />
+                <QuotationGeneration />
+                <ConfigurationOfMasterPolicies />
+                <MappingOfUnits />
+                <Underwriting />
+                <Reinsurance />
+                <PolicyBondIssuance />
+                <CollectionOfStampDuty />
+                <ReportGeneration />
+                <ApprovalOfDeviation />
+                <ApprovalDecisions />
+                <PricingDecisions />
+                <Valuations />
+                <ManageMemberData />
+                <Payments />
+                <ClaimForms />
+                <ChangeinSchemeRules />
+                <ConsentForRenewal />
+                <MemberAddition />
+                <RequestForConversion />
+                <Withdrawal />
+                <Surrender />
+                <MemberLevelPayments />
+                <TDSPayments />
+                <GST />
+                <Funding />
+                <NonMonetaryServices />
+                <AcknowledgeReceipt />
+                <UpdateLeads />
+                <CoordinateWithCustomers />
+                <AcknowledgeCommission />
+            </Responsibilities>
+        </Stakeholder>
+    </Roles>
+</UserStory>
